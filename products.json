@@ -1,0 +1,112 @@
+[
+  {
+    "id": 1,
+    "name": "PVC Insulated Copper Wire 1.5 sq.mm",
+    "description": "General-purpose FR (Flame Retardant) copper wire with PVC insulation for domestic and light commercial wiring. Suitable for fan points, lighting circuits, and plug points. Conductor: Electrolytic grade copper. Insulation: FR-PVC.",
+    "price": 1200,
+    "sku": "PVC-CU-1.5SQMM",
+    "category": "Copper",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 2,
+    "name": "PVC Insulated Copper Wire 2.5 sq.mm",
+    "description": "Medium-duty PVC insulated copper wire for power points, A/C circuits, and kitchen appliances. Higher current capacity with superior conductivity. Electrolytic grade copper conductor with FR-PVC sheath.",
+    "price": 1950,
+    "sku": "PVC-CU-2.5SQMM",
+    "category": "Copper",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 3,
+    "name": "FLFR House Wire 1.5 sq.mm",
+    "description": "Flame Retardant Low Smoke (FLFR) house wire for enhanced fire safety in residential wiring. Emits minimal toxic smoke in the event of fire. Ideal for hospitals, schools, public buildings, and modern residences. ISI marked.",
+    "price": 1650,
+    "sku": "FLFR-1.5SQMM",
+    "category": "Copper",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 4,
+    "name": "FLFR House Wire 4 sq.mm",
+    "description": "Heavy-duty FLFR copper wire for main distribution boards, sub-main circuits, and high-load appliances. Complies with IS:694 standards. Enhanced insulation for safety-critical installations.",
+    "price": 3800,
+    "sku": "FLFR-4SQMM",
+    "category": "Copper",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 5,
+    "name": "Coaxial Cable RG6 (100m Reel)",
+    "description": "High-quality RG6 coaxial cable for cable TV (CATV), satellite dish connections, and broadband antenna feeds. Quad-shielded for minimal signal loss. Copper inner conductor with aluminium foil and braid shielding. UV-resistant PVC outer jacket.",
+    "price": 2400,
+    "sku": "RG6-COAX-100M",
+    "category": "Copper",
+    "image": "/images/products/coaxial-cable-rg6-mgv8pdvn-udah.jpg",
+    "imageToken": "coaxial-cable-rg6-mgv8pdvn-udah",
+    "imageExtension": ".jpg"
+  },
+  {
+    "id": 6,
+    "name": "Coaxial Cable RG11 (305m Reel)",
+    "description": "Long-run RG11 coaxial cable for trunk line installations. Lower attenuation than RG6, ideal for longer cable runs over 50 metres. Used in CATV distribution networks and main backbone cabling.",
+    "price": 8500,
+    "sku": "RG11-COAX-305M",
+    "category": "Copper",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 7,
+    "name": "Bare Copper Wire 16 sq.mm (Earthing)",
+    "description": "Bare annealed copper wire for earthing and grounding applications. Soft and highly flexible for easy installation. Suitable for main earthing conductors, earth pits, and lightning protection systems.",
+    "price": 4200,
+    "sku": "BARE-CU-16SQMM",
+    "category": "Copper",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 8,
+    "name": "Aluminium Armoured Cable 4-Core 10 sq.mm",
+    "description": "4-core aluminium conductor armoured cable (XLPE insulated, PVC sheathed) for underground power distribution. Steel wire armour provides mechanical protection. Suitable for direct burial and conduit installation.",
+    "price": 6800,
+    "sku": "AL-ARM-4C10SQMM",
+    "category": "Aluminum",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 9,
+    "name": "Aluminium Aerial Bunch Cable (ABC) 3+1 Core 16 sq.mm",
+    "description": "Aerial Bunched Cable for overhead power distribution. 3-phase + neutral configuration with UV-stabilised XLPE insulation. Weather-resistant and self-supporting for LT distribution in urban and rural areas.",
+    "price": 5400,
+    "sku": "AL-ABC-3P16SQMM",
+    "category": "Aluminum",
+    "image": "/images/products/placeholder.svg",
+    "imageToken": "placeholder",
+    "imageExtension": ".svg"
+  },
+  {
+    "id": 10,
+    "name": "Test Product",
+    "description": "Test Description",
+    "price": 100,
+    "sku": "TEST-SKU",
+    "category": "Extension Board",
+    "image": "",
+    "imageToken": "",
+    "imageExtension": ""
+  }
+]

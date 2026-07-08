@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ── SEO Meta ─────────────────────────────────────────── -->
+  <title>Copper Wires, Cables & Extension Boards – Vinayka Wires & Cable | Delhi</title>
+  <meta name="description" content="Browse Vinayka Wires & Cable's full product catalog: PVC insulated copper wires, FLFR house wires, coaxial cables, aluminum conductors, and 12 extension board models. Wholesale & retail. Delhi manufacturer." />
+  <meta name="keywords" content="copper wire price Delhi, PVC insulated wire, FLFR house wire, RG6 coaxial cable, extension board 4 socket, surge protector board, heavy duty extension cord, aluminum cable, wire manufacturer Shahdara" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://vinaykawires.com/products.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Copper Wires, Cables & Extension Boards – Vinayka Wires & Cable" />
+  <meta property="og:description" content="Full catalog of ISI-certified copper wires, cables, and 12+ extension board models. PAN-India delivery from Delhi manufacturer." />
+  <meta property="og:url" content="https://vinaykawires.com/products.html" />
+
+  <!-- JSON-LD ItemList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Vinayka Wires & Cable Product Catalog",
+    "description": "Copper wires, PVC cables, FLFR house wires, coaxial cables, and extension boards manufactured in Delhi.",
+    "url": "https://vinaykawires.com/products.html",
+    "numberOfItems": "20",
+    "itemListElement": [
+      { "@type": "ListItem", "position": 1, "name": "PVC Insulated Copper Wire" },
+      { "@type": "ListItem", "position": 2, "name": "FLFR House Wire" },
+      { "@type": "ListItem", "position": 3, "name": "Coaxial Cable RG6" },
+      { "@type": "ListItem", "position": 4, "name": "4-Socket Extension Board" },
+      { "@type": "ListItem", "position": 5, "name": "6-Socket Heavy Duty Extension Board" },
+      { "@type": "ListItem", "position": 6, "name": "Surge Protector Extension Board" }
+    ]
+  }
+  </script>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800;900&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body data-page="products">
+
+  <!-- ── Header ──────────────────────────────────────────── -->
+  <header class="site-header" id="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="/COMPANY-LOGO.jpg" alt="Vinayka Wires & Cable Logo" class="logo" />
+        Vinayka Wires & Cable
+      </a>
+      <button class="nav-toggle" aria-label="Toggle navigation" id="nav-toggle">☰</button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="/index.html" class="nav-link">Home</a>
+        <a href="/about.html" class="nav-link">About</a>
+        <a href="/products.html" class="nav-link active">Products</a>
+        <a href="/contact.html" class="nav-link">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- ── Page Hero ─────────────────────────────────────── -->
+    <section class="products-page-hero" aria-label="Products page hero">
+      <div class="container">
+        <div class="section-tag">Our Catalog</div>
+        <h1>Wires, Cables &amp; <span class="gradient-text">Extension Boards</span></h1>
+        <p>ISI-certified copper conductors and multi-socket extension boards for residential, commercial and industrial use. Manufactured in Delhi since 2014.</p>
+      </div>
+    </section>
+
+    <!-- ── Main Product Tab Bar ───────────────────────────── -->
+    <section style="padding: 0 0 16px;">
+      <div class="container">
+        <div class="product-tabs-bar" role="tablist" aria-label="Product categories">
+          <button class="product-tab-btn tab-wires active" data-tab="wires" id="tab-btn-wires" role="tab" aria-selected="true" aria-controls="wires-panel">
+            ⚡ Wires &amp; Cables
+          </button>
+          <button class="product-tab-btn tab-boards" data-tab="boards" id="tab-btn-boards" role="tab" aria-selected="false" aria-controls="boards-panel">
+            🔌 Extension Boards
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         WIRES & CABLES TAB
+    ══════════════════════════════════════════════════════ -->
+    <section class="wires-section" id="wires-panel" role="tabpanel" aria-labelledby="tab-btn-wires">
+      <div class="container">
+        <div class="products-header">
+          <h2 style="margin:0;font-size:22px;">Wires &amp; Cables Catalog</h2>
+          <div class="search-bar">
+            <input type="search" id="product-search" placeholder="Search products…" aria-label="Search products" />
+          </div>
+        </div>
+        <div class="category-filters" role="group" aria-label="Filter by material">
+          <button class="filter-btn active" data-category="all" id="filter-all">All Products</button>
+          <button class="filter-btn" data-category="Copper" id="filter-copper">Copper Wires</button>
+          <button class="filter-btn" data-category="Aluminum" id="filter-aluminum">Aluminum Cables</button>
+        </div>
+        <div id="products-grid" class="featured-grid" role="region" aria-live="polite" aria-label="Products list"></div>
+      </div>
+    </section>
+
+    <!-- ══════════════════════════════════════════════════════
+         EXTENSION BOARDS TAB
+    ══════════════════════════════════════════════════════ -->
+    <section class="boards-section" id="boards-panel" role="tabpanel" aria-labelledby="tab-btn-boards" hidden>
+      <div class="container">
+        <div style="margin-bottom:36px;">
+          <h2 style="font-size:22px;margin-bottom:8px;">Extension Boards — <span class="gradient-text-blue">12 Models</span></h2>
+          <p style="color:var(--muted-2);font-size:14px;">ISI-marked. Heavy-duty cords. Surge-protected options. For home, office, and industrial use.</p>
+        </div>
+        <div class="boards-grid">
+
+          <!-- Model 1 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">🔌</div>
+            <div class="board-badge badge-popular">⭐ Best Seller</div>
+            <h3>VK-4S Standard Extension Board</h3>
+            <p>4-universal socket, 1.5-metre heavy PVC cord, ISI-marked plug, master on/off switch. Ideal for home and office use.</p>
+            <div class="board-specs">
+              <span class="spec-tag">4 Sockets</span>
+              <span class="spec-tag">1.5m Cord</span>
+              <span class="spec-tag">6A Rating</span>
+              <span class="spec-tag">ISI Marked</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 2 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">🔌</div>
+            <div class="board-badge badge-popular">⭐ Best Seller</div>
+            <h3>VK-6S Heavy Duty Extension Board</h3>
+            <p>6-socket extension with 3-metre 3-core copper wire, neon indicator, and individual socket shutters for child safety.</p>
+            <div class="board-specs">
+              <span class="spec-tag">6 Sockets</span>
+              <span class="spec-tag">3m Cord</span>
+              <span class="spec-tag">10A Rating</span>
+              <span class="spec-tag">Neon Indicator</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 3 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">⚡</div>
+            <div class="board-badge badge-new">🛡️ Spike Guard</div>
+            <h3>VK-6S Surge Protector Board</h3>
+            <p>6 universal sockets with built-in surge/spike protection circuit. Safeguards connected devices against voltage spikes and transients.</p>
+            <div class="board-specs">
+              <span class="spec-tag">6 Sockets</span>
+              <span class="spec-tag">3m Cord</span>
+              <span class="spec-tag">Surge Guard</span>
+              <span class="spec-tag">10A Rating</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 4 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">📱</div>
+            <div class="board-badge badge-new">✨ New</div>
+            <h3>VK-4S USB Universal Board</h3>
+            <p>4 universal sockets plus 2 USB-A fast charging ports (2.4A each). Perfect for modern home offices and bedrooms.</p>
+            <div class="board-specs">
+              <span class="spec-tag">4 Sockets</span>
+              <span class="spec-tag">2 USB Ports</span>
+              <span class="spec-tag">2m Cord</span>
+              <span class="spec-tag">2.4A USB</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 5 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">🏗️</div>
+            <div class="board-badge badge-heavy">🔴 Industrial</div>
+            <h3>VK-6S Industrial Grade Board</h3>
+            <p>Heavy-duty 6-socket board with 5-metre 4mm² copper cord, 25A rating for power tools, compressors, and workshop equipment.</p>
+            <div class="board-specs">
+              <span class="spec-tag">6 Sockets</span>
+              <span class="spec-tag">5m Cord</span>
+              <span class="spec-tag">25A Rating</span>
+              <span class="spec-tag">4mm² Copper</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 6 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">🔌</div>
+            <h3>VK-4S Compact 10A Board</h3>
+            <p>Compact 4-socket board with 1-metre cord, 10A capacity, suitable for high-power appliances like geysers and ACs up to 2 tons.</p>
+            <div class="board-specs">
+              <span class="spec-tag">4 Sockets</span>
+              <span class="spec-tag">1m Cord</span>
+              <span class="spec-tag">10A Rating</span>
+              <span class="spec-tag">Heavy Duty</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 7 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">💡</div>
+            <div class="board-badge badge-new">✨ New</div>
+            <h3>VK-4S Slim Flat-Cable Board</h3>
+            <p>Ultra-slim design with flat ribbon cable, 2-metre cord that fits easily under carpets and doors. Ideal for bedrooms.</p>
+            <div class="board-specs">
+              <span class="spec-tag">4 Sockets</span>
+              <span class="spec-tag">2m Flat Cord</span>
+              <span class="spec-tag">6A Rating</span>
+              <span class="spec-tag">Slim Design</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 8 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">⚙️</div>
+            <h3>VK-6S Smart Master Switch</h3>
+            <p>6 individually switched sockets with LED indicators per socket, 3-metre cord. Full control over each connected appliance independently.</p>
+            <div class="board-specs">
+              <span class="spec-tag">6 Switched Sockets</span>
+              <span class="spec-tag">3m Cord</span>
+              <span class="spec-tag">Per-Socket LED</span>
+              <span class="spec-tag">10A Rating</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 9 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">✈️</div>
+            <h3>VK-3S Travel Compact Board</h3>
+            <p>Compact 3-socket travel extension with universal sockets, built-in cable winder, and 1.5-metre retractable cord. Lightweight at 280g.</p>
+            <div class="board-specs">
+              <span class="spec-tag">3 Sockets</span>
+              <span class="spec-tag">1.5m Cord</span>
+              <span class="spec-tag">Cable Winder</span>
+              <span class="spec-tag">Universal</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 10 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">🔧</div>
+            <div class="board-badge badge-heavy">🔴 Workshop</div>
+            <h3>VK-8S Workshop Extension Board</h3>
+            <p>8-socket workshop board with 5-metre 2.5mm² copper cord, rubberised casing, IP44 splash resistance, and circuit breaker protection.</p>
+            <div class="board-specs">
+              <span class="spec-tag">8 Sockets</span>
+              <span class="spec-tag">5m Cord</span>
+              <span class="spec-tag">Circuit Breaker</span>
+              <span class="spec-tag">IP44 Rated</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 11 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">🌟</div>
+            <h3>VK-4S LED Indicator Board</h3>
+            <p>4-socket board with bright neon indicator light for power status, 2-metre cord, and ISI-marked plug. Classic design for everyday use.</p>
+            <div class="board-specs">
+              <span class="spec-tag">4 Sockets</span>
+              <span class="spec-tag">2m Cord</span>
+              <span class="spec-tag">Neon Indicator</span>
+              <span class="spec-tag">ISI Marked</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+          <!-- Model 12 -->
+          <article class="board-card">
+            <div class="board-icon" aria-hidden="true">⚡</div>
+            <div class="board-badge badge-popular">⭐ Top Pick</div>
+            <h3>VK-6S Spike Guard Deluxe</h3>
+            <p>6-socket premium spike guard with thermal fuse, RF filter, and 3-metre copper cord. Protects computers, TVs, and AV equipment.</p>
+            <div class="board-specs">
+              <span class="spec-tag">6 Sockets</span>
+              <span class="spec-tag">3m Cord</span>
+              <span class="spec-tag">Thermal Fuse</span>
+              <span class="spec-tag">RF Filter</span>
+            </div>
+            <a href="/contact.html" class="btn btn-sm ghost">Get Quote →</a>
+          </article>
+
+        </div>
+
+        <!-- Bulk Order CTA -->
+        <div style="text-align:center;margin-top:56px;padding:40px;border-radius:var(--radius-lg);border:1px solid rgba(59,130,246,0.2);background:var(--surface);">
+          <div class="section-tag" style="margin:0 auto 16px;">Wholesale Available</div>
+          <h3 style="margin-bottom:12px;">Need Extension Boards in Bulk?</h3>
+          <p style="color:var(--muted-2);max-width:480px;margin:0 auto 24px;font-size:14px;">We supply extension boards to wholesalers, retailers, electricians, and contractors across India. Contact us for special pricing on orders of 50+ units.</p>
+          <a href="/contact.html" class="btn primary" id="boards-contact-btn">📞 Request Bulk Quote</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Product Modal ──────────────────────────────────── -->
+    <div class="modal" id="product-modal" hidden role="dialog" aria-modal="true" aria-labelledby="modal-title">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-content">
+        <button class="modal-close" data-close aria-label="Close product details">×</button>
+        <div class="product-modal-media">
+          <img id="modal-image" src="/images/products/placeholder.svg" alt="Product image" />
+        </div>
+        <h2 id="modal-title"></h2>
+        <p id="modal-desc" class="muted" style="margin:12px 0;"></p>
+        <div class="price-row">
+          <span class="price" id="modal-price"></span>
+          <span class="pill" id="modal-sku"></span>
+        </div>
+        <div style="margin-top:24px;">
+          <a href="/contact.html" class="btn primary">📞 Get Quote for This Product</a>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- ── Footer ────────────────────────────────────────────── -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <img src="/COMPANY-LOGO.jpg" alt="Vinayka Wires & Cable" />
+            <span>Vinayka Wires & Cable</span>
+          </div>
+          <p>Precision copper conductors and extension boards for residential, commercial, and industrial power distribution. Manufactured in Delhi since 2014.</p>
+          <div class="social-links">
+            <a href="https://www.instagram.com/vinaykawires/" class="social-link instagram" target="_blank" rel="noopener" aria-label="Instagram">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5Zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7Zm5 3a5 5 0 1 1 0 10 5 5 0 0 1 0-10Zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm6.5-2.75a1 1 0 1 1 0 2 1 1 0 0 1 0-2Z"/></svg>
+            </a>
+            <a href="https://www.facebook.com/profile.php?id=61580277512956" class="social-link facebook" target="_blank" rel="noopener" aria-label="Facebook">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M13 22h-4v-8H7v-4h2V7.3C9 4.7 10.7 3 13.2 3H17v4h-2.6c-.9 0-1.4.5-1.4 1.4V10h4l-.5 4H13v8Z"/></svg>
+            </a>
+            <a href="https://wa.me/qr/A32UNXGCYV7DD1" class="social-link whatsapp" target="_blank" rel="noopener" aria-label="WhatsApp">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.94 11.94 0 0 0 12 0C5.373 0 0 5.373 0 12c0 2.116.555 4.198 1.607 6.043L0 24l6.073-1.58A11.94 11.94 0 0 0 12 22.933C18.627 22.933 24 17.56 24 10.933a11.94 11.94 0 0 0-3.48-7.453Z"/><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.149-.67.149-.198.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.214-.242-.579-.487-.5-.67-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.099 3.2 5.077 4.487.709.306 1.262.489 1.693.625.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.412.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347Z"/></svg>
+            </a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Contact</h4>
+          <ul class="footer-list">
+            <li><a href="tel:+917303739797">+91 73037 39797</a></li>
+            <li><a href="mailto:Mr.manishkumarlodha@gmail.com">manishkumarlodha@gmail.com</a></li>
+            <li>
+              <span class="footer-label">Manufacturing Plant</span>
+              <address class="footer-address">Gali No. 3, Friends Colony,<br />Jhilmil Industrial Area,<br />Shahdara, Delhi – 110032</address>
+            </li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h4 class="footer-title">Explore</h4>
+          <ul class="footer-list">
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about.html">About Us</a></li>
+            <li><a href="/products.html">Wires & Cables</a></li>
+            <li><a href="/products.html?tab=boards">Extension Boards</a></li>
+            <li><a href="/contact.html">Contact & Quote</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>© <span id="year"></span> Vinayka Wires & Cable. All rights reserved. GST: 07ADWPL6565G1Z</p>
+        <div class="footer-meta">Powering safer connections across India.</div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="/script.js" defer></script>
+</body>
+</html>
